@@ -1,21 +1,42 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AppBar from 'material-ui/AppBar';
+import Paper from 'material-ui/Paper';
+import Drawer from 'material-ui/Drawer';
+import Menu from 'material-ui/Menu';
+import MenuItem from 'material-ui/MenuItem';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+	constructor(props){
+		super(props);
+		this.state = {openDrawer: false};
+	}
+	
+	handleToggle = () => this.setState({openDrawer: !this.state.openDrawer});
+	handleClose = () => this.setState({openDrawer: false});
+
+	render() {
+		return (
+			<div className="App">
+				<AppBar 
+					title="enjam"
+					onLeftIconButtonTouchTap={this.handleToggle}
+				></AppBar>
+				<Drawer 
+					docked={false}
+					open={this.state.openDrawer}
+					onRequestChange={open => this.setState({open})}
+				>
+					<AppBar title="enjam" showMenuIconButton={false}/>
+					<Menu>
+						<MenuItem onTouchTap={this.handleClose} primaryText="kommende jams"/>
+						<MenuItem onTouchTap={this.handleClose} primaryText="kontakt"/>
+					</Menu>
+				</Drawer>
+			</div>
+		);
+	}
 }
 
 export default App;
