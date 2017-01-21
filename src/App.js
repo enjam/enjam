@@ -6,24 +6,25 @@ import Paper from 'material-ui/Paper';
 import Drawer from 'material-ui/Drawer';
 import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
+import CardComponent from './components/CardComponent'
 
 class App extends Component {
 	constructor(props){
 		super(props);
 		this.state = {openDrawer: false};
 	}
-	
+
 	handleToggle = () => this.setState({openDrawer: !this.state.openDrawer});
 	handleClose = () => this.setState({openDrawer: false});
 
 	render() {
 		return (
 			<div className="App">
-				<AppBar 
+				<AppBar
 					title="enjam"
 					onLeftIconButtonTouchTap={this.handleToggle}
 				></AppBar>
-				<Drawer 
+				<Drawer
 					docked={false}
 					open={this.state.openDrawer}
 					onRequestChange={openDrawer => this.setState({openDrawer})}
@@ -34,6 +35,7 @@ class App extends Component {
 						<MenuItem onTouchTap={this.handleClose} primaryText="kontakt"/>
 					</Menu>
 				</Drawer>
+				<CardComponent/>
 			</div>
 		);
 	}
