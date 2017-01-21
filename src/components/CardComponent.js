@@ -7,12 +7,12 @@ const CardComponent = () => (
     <CardHeader
       title="URL Avatar"
       subtitle="Subtitle"
-      avatar="../images/jsa-128.jpg"
+      avatar="images/jsa-128.jpg"
     />
     <CardMedia
       overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
     >
-      <img src="../images/nature-600-337.jpg" />
+      <img src="images/nature-600-337.jpg" />
     </CardMedia>
     <CardTitle title="Card title" subtitle="Card subtitle" />
     <CardText>
