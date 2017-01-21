@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './styles.css';
 import AppBar from 'material-ui/AppBar';
 import Paper from 'material-ui/Paper';
 import Drawer from 'material-ui/Drawer';
@@ -35,7 +36,9 @@ class App extends Component {
 						<MenuItem onTouchTap={this.handleClose} primaryText="kontakt"/>
 					</Menu>
 				</Drawer>
-				<CardComponent/>
+				<div className="main">
+					<CardComponent/>
+				</div>
 			</div>
 		);
 	}
