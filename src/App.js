@@ -9,7 +9,6 @@ class App extends Component {
       <div className="App">
         <header>
           <h1>enjam</h1>
-          <h2>Hvor dine drømme bliver til virkelighed</h2>
         </header>
         <div className="main">
             <div className="row">
