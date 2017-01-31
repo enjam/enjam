@@ -1,47 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import gamejam from '../public/images/gamejam.png';
 import './App.css';
-import './styles.css';
-import AppBar from 'material-ui/AppBar';
-import Paper from 'material-ui/Paper';
-import Drawer from 'material-ui/Drawer';
-import Menu from 'material-ui/Menu';
-import MenuItem from 'material-ui/MenuItem';
-import CardComponent from './components/CardComponent'
+var FontAwesome = require('react-fontawesome');
 
 class App extends Component {
-	constructor(props){
-		super(props);
-		this.state = {openDrawer: false};
-	}
-
-	handleToggle = () => this.setState({openDrawer: !this.state.openDrawer});
-	handleClose = () => this.setState({openDrawer: false});
-
-	render() {
-		return (
-			<div className="App">
-				<AppBar
-					title="enjam"
-					onLeftIconButtonTouchTap={this.handleToggle}
-				></AppBar>
-				<Drawer
-					docked={false}
-					open={this.state.openDrawer}
-					onRequestChange={openDrawer => this.setState({openDrawer})}
-				>
-					<AppBar title="enjam" showMenuIconButton={false}/>
-					<Menu>
-						<MenuItem onTouchTap={this.handleClose} primaryText="kommende jams"/>
-						<MenuItem onTouchTap={this.handleClose} primaryText="kontakt"/>
-					</Menu>
-				</Drawer>
-				<div className="main">
-					<CardComponent/>
-				</div>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div className="App">
+        <header>
+          <h1>enjam</h1>
+          <h2>Hvor dine drømme bliver til virkelighed</h2>
+        </header>
+        <div className="main">
+            <div className="row">
+                <h1>HVAD ER ENJAM</h1>
+                <p>Lorem ipsum dolor sit amet, cu propriae forensibus disputationi mea. Sed ut vidit omnesque laboramus, assum nostrum est no. Paulo nihil volumus vis at, sed an autem meliore dissentiet. Et mea nibh mazim, sea putent erroribus at, te vim dicant mentitum. Et eum animal nostrud, eos ei unum dictas minimum, ut minimum eloquentiam eum.</p>
+            </div>
+            <div className="row">
+                <h1>NÆSTE EVENT</h1>
+                <img src={gamejam} className="event-image"/>
+                <h1 id="event-header">Gamejam</h1>
+                <h2>23.-25. marts</h2>
+                <p>Lorem ipsum dolor sit amet, cu propriae forensibus disputationi mea. Sed ut vidit omnesque laboramus, assum nostrum est no. Paulo nihil volumus vis at, sed an autem meliore dissentiet. Et mea nibh mazim, sea putent erroribus at, te vim dicant mentitum. Et eum animal nostrud, eos ei unum dictas minimum, ut minimum eloquentiam eum.</p>
+                <button className="">TILMELD</button>
+            </div>
+            <div className="row">
+                <h1>FØLG OS PÅ FACEBOOK</h1>
+                <FontAwesome name='facebook-square' size='3x' className='fb-button' />
+            </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
