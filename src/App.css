@@ -40,6 +40,7 @@ p {
 }
 
 header h1 {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 80px;
   color: white;
 }
@@ -103,6 +104,7 @@ button {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  box-shadow: 1px 1px 10px #dcdcdc;
 }
 
 button:focus {
