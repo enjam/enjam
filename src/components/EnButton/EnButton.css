@@ -1,0 +1,25 @@
+.enbutton {
+  text-decoration: none;
+  display: block;
+  margin: 30px auto 0 auto;
+  max-width: 300px;
+  padding: 15px 25px;
+  font-size: 18px;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  background-color: lightseagreen;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #dcdcdc;
+}
+.enbutton:hover {
+	cursor: pointer;
+}
+.enbutton:focus {
+  outline: none
+}
