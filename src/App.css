@@ -87,7 +87,8 @@ header {
   font-size: 60px;
 }
 
-button {
+.button {
+  text-decoration: none;
   display: block;
   margin: 30px auto 0 auto;
   max-width: 400px;
@@ -107,7 +108,7 @@ button {
   box-shadow: 1px 1px 10px #dcdcdc;
 }
 
-button:focus {
+.button:focus {
   outline: none
 }
 
@@ -117,5 +118,9 @@ button:focus {
 }
 
 .fb-button:hover {
-  color: lightslategray;
+  color: lightseagreen;
+}
+
+a {
+  text-decoration: none;
 }
