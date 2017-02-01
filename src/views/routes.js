@@ -1,9 +1,9 @@
 import React from 'react';
 import { Router, Route } from 'react-router';
 
-import FrontPage from './components/FrontPage/FrontPage';
-import About from './components/About/About';
-import NotFound from './components/NotFound/NotFound';
+import FrontPage from './FrontPage/FrontPage';
+import About from './About/About';
+import NotFound from './NotFound/NotFound';
 
 const Routes = (props) => (
   <Router {...props}>

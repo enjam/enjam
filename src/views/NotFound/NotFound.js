@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router';
-import EnButton from '../EnButton/EnButton';
+import EnButton from '../../components/EnButton/EnButton';
 
 const NotFound = (props) => (
 	<div>
