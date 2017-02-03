@@ -39,7 +39,8 @@ header, footer{
 
 header{
 	color: white;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
+	padding-top: 0;
 }
 
 header h1 {
