@@ -6,18 +6,26 @@ import FontAwesome from 'react-fontawesome';
 
 import './App.css';
 
+const LinkClick = (e, href) => {
+	e.preventDefault();
+	browserHistory.push(href);
+}
+const Link = (props) => (
+	<li><a href={props.to} onClick={e => LinkClick(e, props.to)}>{props.children}</a></li>
+);
+
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
 				<header>
-					<a href="/"><h1>enjam</h1></a>
+					<Link to="/"><h1>enjam</h1></Link>
 					<ul>
-						<li><a href="/jams"><h2>jams</h2></a></li>
+						<Link to="/jams"><h2>jams</h2></Link>
 						<li><h2>-</h2></li>
-						<li><a href="/about"><h2>om enjam</h2></a></li>
+						<Link to="/about"><h2>om enjam</h2></Link>
 						<li><h2>-</h2></li>
-						<li><a href="/contact"><h2>kontakt</h2></a></li>
+						<Link to="/contact"><h2>kontakt</h2></Link>
 					</ul>
 				</header>
 				<div className="main">

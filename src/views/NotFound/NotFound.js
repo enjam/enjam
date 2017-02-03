@@ -6,7 +6,7 @@ const NotFound = (props) => (
 	<div>
 		<h2>Argh, pinligt!</h2>
 		<p>Vi ved ikke, hvad du leder efter :(</p>
-		<a href="/"><EnButton title="Tilbage til forsiden"/></a>
+		<Link to="/"><EnButton title="Forside"/></Link>
 	</div>
 );
 
