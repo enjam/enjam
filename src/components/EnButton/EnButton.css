@@ -1,16 +1,12 @@
 .enbutton {
+	display: inline-block;
   margin: auto;
-	margin-top: 15px;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
   font-size: 18px;
-  border: none;
+	padding: 15px 30px;
   background-color: lightseagreen;
   color: white;
-  border-radius: 100%;
+  border-radius: 5px;
   box-shadow: 1px 1px 10px #dcdcdc;
-	vertical-align: middle;
 }
 .enbutton:hover {
 	cursor: pointer;
