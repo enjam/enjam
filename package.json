@@ -8,6 +8,7 @@
     "react-tap-event-plugin": "^2.0.1"
   },
   "dependencies": {
+    "is-mobile": "^0.2.2",
     "path": "^0.12.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
