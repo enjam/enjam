@@ -3,7 +3,7 @@ import React from 'react';
 const style = {
 	width: '500px',
 	height: '500px',
-	border: none
+	border: 'none'
 };
 
 const TrumpTris = () => (
