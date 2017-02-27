@@ -12,7 +12,7 @@ const style = {
 
 const TrumpTris = () => {
 	let topContent;
-	if (mobile()){
+	if (!mobile()){
 		topContent = <div>
 				<p>Trump: "Build a wall with 200 points in 2 minutes or you're fired!"</p>
 				<iframe src="http://trump.enjam.dk" style={style}>
