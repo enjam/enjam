@@ -7,7 +7,8 @@ import GameJam from '../GameJam';
 const style = {
 	width: '500px',
 	height: '500px',
-	border: 'none'
+	border: 'none',
+	overflow: 'hidden'
 };
 
 const TrumpTris = () => {
@@ -15,7 +16,7 @@ const TrumpTris = () => {
 	if (!mobile()){
 		topContent = <div>
 				<p>Trump: "Build a wall with 200 points in 2 minutes or you're fired!"</p>
-				<iframe src="http://trump.enjam.dk" style={style}>
+				<iframe src="http://trump.enjam.dk" style={style} scrolling="no">
 				</iframe>
 			</div>;
 	}else{
