@@ -10,15 +10,17 @@ const About = (props) => (
 		<Card zDepth={0}>
 			<CardTitle title="Om Enjam"/>
 			<Divider />
-			<p style={{margin: '16px'}}>
+			<p>
 				Enjam arrangerer ingeniør-jams for studerende på SDU. 
 				Idéen er at skabe et kreativt miljø, 
 				der sætter de studerendes fagligheder og interesser i spil på tværs af uddannelserne.
-				<br/><br/>
+			</p>
+			<p>
 				Hver jam tager afsæt i et tema med udfordringer, 
 				der er relevante for en række ingeniørudannelser. 
 				Deltagerne finder sammen i mindre grupper og har weekenden til at lave et produkt.
-				<br/><br/>
+			</p>
+			<p>
 				Deltagerne skulle gerne tage hjem med inspiration, 
 				eventuelle præmier og et større netværk.
 			</p>

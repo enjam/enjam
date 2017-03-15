@@ -1,7 +1,7 @@
 import React from 'react';
 
 const style = {
-	padding: '10px',
+	padding: '16px',
 };
 
 const EnPage = (props) => {

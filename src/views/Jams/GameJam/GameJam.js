@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router';
 
-import EnPage from '../../../components/EnPage';
 import EnList from './EnList';
 
 import {Card, CardTitle} from 'material-ui/Card';
@@ -89,51 +88,58 @@ const GameJam = (props) => {
 	};
 	
 	return (
-		<EnPage>
-			<Card zDepth={0}>
-				<div style={{padding:'10px'}}>
-					<MediaQuery minDeviceWidth={800}>
-						{match => (
-							<div style={match ? flexTopDesktop : flexTopMobile}>
-								<CardTitle title="Gamejam" subtitle="24.-26. marts"/>
-								<Link to="/trump">
-									<img src={gamejam} role="presentation" style={{height:'200px', margin: '5px'}}/>
-								</Link>
-								<a href={eventLink} target="_blank">
-									<RaisedButton label="Tilmeld 30 kr" primary={true} style={{margin:'16px'}}/>
-								</a>
-							</div>
-						)}
-					</MediaQuery>
-					<Divider />
-					<br/>
-					<div style={{textAlign: 'center'}}>
-						Kan du lide at tegne, programmere, spille musik eller finde på historier?
-					</div>
-					<br/>
+		<Card zDepth={0}>
+				<MediaQuery minDeviceWidth={800}>
+					{match => (
+						<div style={match ? flexTopDesktop : flexTopMobile}>
+							<CardTitle 
+								style={{paddingTop: 0}}
+								title="Gamejam" 
+								subtitle="24.-26. marts"
+							/>
+							<Link to="/trump">
+								<img src={gamejam} role="presentation" style={{height:'200px', margin: '5px'}}/>
+							</Link>
+							<a href={eventLink} target="_blank">
+								<RaisedButton 
+									label="Tilmeld 30 kr" 
+									primary={true} 
+									style={{
+										margin:'16px', 
+										marginTop: 0,
+									}}/>
+							</a>
+						</div>
+					)}
+				</MediaQuery>
+				<Divider />
+				<br/>
+				<div style={{textAlign: 'center'}}>
+					Kan du lide at tegne, programmere, spille musik eller finde på historier?
+				</div>
+				<p>
 					Så kom til gamejammet på TEK, Syddansk Universitet, og team up med nogle, 
 					der komplementerer dine interesser i en spilproduktion.
 					I har en weekend til at lave et spil udfra et emne, der offentliggøres fredag aften.
 					Det kan være et brætspil, et computerspil eller et hvilket som helst andet slags spil. 
-					<br/><br/>
+				</p>
+				<p>
 					Søndag eftermiddag viser alle deres spil og stemmer om, 
 					hvem der skal have præmier i forskellige kategorier.
 					Der vil være hygge og mindre konkurrencer i løbet af eventet, 
 					og vi sørger for morgenmad og middagsmad, samt aftensmad fredag, 
 					så i ikke skal tænke på madpakken.
-					<p />
-					<MediaQuery minDeviceWidth={800}>
-						{match => (
-							<div style={match ? desktopFlex : mobileFlex}>
-								{Guests}
-								{Prices}
-								{Sponsors}
-							</div>
-						)}
-					</MediaQuery>
-				</div>
-			</Card>
-		</EnPage>
+				</p>
+				<MediaQuery minDeviceWidth={800}>
+					{match => (
+						<div style={match ? desktopFlex : mobileFlex}>
+							{Guests}
+							{Prices}
+							{Sponsors}
+						</div>
+					)}
+				</MediaQuery>
+		</Card>
 	);
 };
 

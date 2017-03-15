@@ -1,11 +1,12 @@
 import React from 'react';
 
 import GameJam from './GameJam/GameJam';
+import EnPage from '../../components/EnPage';
 
 const Jams = (props) => (
-	<div>
+	<EnPage>
 		<GameJam/>
-	</div>
+	</EnPage>
 );
 
 export default Jams;
