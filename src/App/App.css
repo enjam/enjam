@@ -1,7 +1,16 @@
 .App {
-  text-align: center;
 	min-height: 100%;
-	padding-bottom: 80px;
+	padding-bottom: 60px;
+	position: relative;
+	font-family: Roboto, sans-serif;
+}
+
+header, footer{
+	text-align: center;
+	background-color: lightseagreen;
+	padding: 20px 10px;
+	box-shadow: 1px 1px 10px #dcdcdc;
+	color: white;
 	position: relative;
 }
 
@@ -9,64 +18,41 @@ h1, h2, h3, p{
 	color: #156560;
 }
 
-h1, h2 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  padding: 0;
-  margin: 0;
+a {
+	text-decoration: none;
 }
 
-h3 {
-	font-family: "Raleway", sans-serif;
+.App header h1,
+.App header h2{
+	color: white;
 	padding: 0;
 	margin: 0;
 }
-
-p {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  line-height: 25px;
-  max-width: 700px;
-	margin: 10px auto;
-}
-
-header, footer{
-  background-color: lightseagreen;
-  padding: 20px 10px;
-  box-shadow: 1px 1px 10px #dcdcdc;
-	color: white;
-}
-
-header{
-	color: white;
+.App header{
+	font-family: "Josefin Sans", sans-serif;
 	padding-bottom: 10px;
 	padding-top: 0;
 }
-
-header h1 {
-	font-family: "Josefin Sans", sans-serif;
+.App header h1 {
 	font-size: 100px;
 	font-weight: 100;
-	color: white;
 }
-header ul{
+.App header h2{
+	font-size: 20px;
+	font-weight: 300;
+}
+.App header ul{
 	display: flex;
 	justify-content: center;
 	padding: 0;
 	margin: 0;
 }
-header li{
+.App header li{
 	list-style-type: none;
 	margin: 0 2px;
 }
-header h2{
-	font-family: "Josefin Sans", sans-serif;
-	color: white;
-	font-size: 20px;
-	font-weight: 300;
-}
 
-footer{
+.App footer{
 	position: absolute;
 	bottom: 0;
 	height: 60px;
@@ -74,40 +60,18 @@ footer{
 	padding: 5px;
 }
 
-.left p{
-	text-align: left;
+.App .main {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
 }
 
-.main {
-  max-width: 800px;
-  width: 100%;
-	margin: 20px auto;
-	padding: 0 10px;
-}
-
-.main h1 {
-  font-size: 35px;
-  font-weight: 700;
-}
-
-.row {
-  margin: 30px 0;
-}
-
-.event-image {
-	max-width: 500px;
-  width: 100%;
-}
-
-.fb-button {
+footer .fb-button {
 	margin-top: 10px;
-  color: darkslategray;
+	color: darkslategray;
 }
 
-.fb-button:hover {
-  opacity: .5;
-}
-
-a {
-  text-decoration: none;
+footer .fb-button:hover {
+	opacity: .5;
 }

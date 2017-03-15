@@ -6,6 +6,7 @@ import FontAwesome from 'react-fontawesome';
 
 import './App.css';
 
+//enable react router outside routes component
 const LinkClick = (e, href) => {
 	e.preventDefault();
 	browserHistory.push(href);
