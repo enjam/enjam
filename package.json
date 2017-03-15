@@ -11,6 +11,7 @@
     "is-mobile": "^0.2.2",
     "path": "^0.12.7",
     "react": "^15.4.2",
+    "react-document-meta": "^2.1.1",
     "react-dom": "^15.4.2",
     "react-fontawesome": "^1.5.0",
     "react-responsive": "^1.2.7",

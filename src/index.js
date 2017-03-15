@@ -8,11 +8,16 @@ import App from './App/App';
 import './index.css';
 import muiTheme from './muiTheme';
 
+import DocumentMeta from 'react-document-meta';
+
 injectTapEventPlugin();
 
 ReactDOM.render(
 	<MuiThemeProvider muiTheme={muiTheme}>
-  	<App />
+		<div>
+			<DocumentMeta title="Enjam"/>
+  		<App />
+		</div>
 	</MuiThemeProvider>,
   document.getElementById('root')
 );
