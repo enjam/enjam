@@ -93,7 +93,7 @@ const GameJam = (props) => {
 					{match => (
 						<div style={match ? flexTopDesktop : flexTopMobile}>
 							<CardTitle 
-								style={{paddingTop: 0}}
+								style={{paddingTop: 0, width: '166px'}}
 								title="Gamejam" 
 								subtitle="24.-26. marts"
 							/>
@@ -115,7 +115,7 @@ const GameJam = (props) => {
 				<Divider />
 				<br/>
 				<div style={{textAlign: 'center'}}>
-					Kan du lide at tegne, programmere, spille musik eller finde på historier?
+					Kan du lide at tegne, programmere, spille musik eller skrive historier?
 				</div>
 				<p>
 					Så kom til gamejammet på TEK, Syddansk Universitet, og team up med nogle, 
@@ -124,11 +124,17 @@ const GameJam = (props) => {
 					Det kan være et brætspil, et computerspil eller et hvilket som helst andet slags spil. 
 				</p>
 				<p>
-					Søndag eftermiddag viser alle deres spil og stemmer om, 
+					Søndag eftermiddag præsenterer alle deres spil og der stemmes om, 
 					hvem der skal have præmier i forskellige kategorier.
-					Der vil være hygge og mindre konkurrencer i løbet af eventet, 
-					og vi sørger for morgenmad og middagsmad, samt aftensmad fredag, 
+					Der vil være masser hygge og mindre konkurrencer i løbet af eventet, 
+					og vi sørger for aftensmad fredag samt morgenmad og middagsmad lørdag og søndag, 
 					så i ikke skal tænke på madpakken.
+				</p>
+				<p>
+					Der vil være et foredrag om spilmekanikker samt et foredrag om værdiskabende spil.
+				</p>
+				<p>
+					GameInventors tager nogle spændende brætspil med, som de kan hjælpe jer igang med, fredag eftermiddag i JARVIS.
 				</p>
 				<MediaQuery minDeviceWidth={800}>
 					{match => (

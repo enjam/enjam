@@ -14,5 +14,9 @@ export default [
 		from: 'LetSoftware',
 		src: 'images/LetSoftware.jpg',
 		href: 'http://letsoftware.com/',
-	},
+	},{
+		name: 'GameInventors',
+		src: 'images/GameInventors.jpg',
+		href: 'http://www.gameinventors.dk/',
+	}
 ];

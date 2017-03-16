@@ -14,10 +14,6 @@ header, footer{
 	position: relative;
 }
 
-h1, h2, h3, p{
-	color: #156560;
-}
-
 a {
 	text-decoration: none;
 }
