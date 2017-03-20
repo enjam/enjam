@@ -24,4 +24,9 @@ export default [
 		logo: '/images/TechnologyDenmark.jpg',
 		href: 'https://technologydenmark.dk/',
 	},
+	{
+		name: 'GameInventors',
+		logo: '/images/GameInventors.jpg',
+		href: 'http://www.gameinventors.dk/',
+	},
 ];

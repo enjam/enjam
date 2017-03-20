@@ -127,14 +127,15 @@ const GameJam = (props) => {
 					Søndag eftermiddag præsenterer alle deres spil og der stemmes om, 
 					hvem der skal have præmier i forskellige kategorier.
 					Der vil være masser hygge og mindre konkurrencer i løbet af eventet, 
-					og vi sørger for aftensmad fredag samt morgenmad og middagsmad lørdag og søndag, 
+					og vi sørger for aftensmad fredag og lørdag samt morgenmad og middagsmad lørdag og søndag, 
 					så i ikke skal tænke på madpakken.
 				</p>
 				<p>
-					Der vil være et foredrag om spilmekanikker samt et foredrag om værdiskabende spil.
+					Der vil være et foredrag om værdiskabende spil.
 				</p>
 				<p>
-					GameInventors tager nogle spændende brætspil med, som de kan hjælpe jer igang med, fredag eftermiddag i JARVIS.
+					GameInventors har sponsoreret brætspil til Enjam, 
+					som i kan spille fredag eftermiddag og fremadrettet i JARVIS.
 				</p>
 				<MediaQuery minDeviceWidth={800}>
 					{match => (
