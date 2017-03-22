@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router';
 
 import {List, ListItem} from 'material-ui/List';
 import Avatar from 'material-ui/Avatar';

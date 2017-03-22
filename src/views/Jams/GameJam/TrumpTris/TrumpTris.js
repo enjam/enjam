@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router';
 import mobile from 'is-mobile';
 
 import GameJam from '../GameJam';

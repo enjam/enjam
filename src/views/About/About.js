@@ -2,7 +2,7 @@ import React from 'react';
 
 import EnPage from '../../components/EnPage';
 
-import {Card, CardTitle, CardText} from 'material-ui/Card';
+import {Card, CardTitle} from 'material-ui/Card';
 import Divider from 'material-ui/Divider';
 
 const About = (props) => (

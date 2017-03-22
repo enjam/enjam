@@ -8,6 +8,7 @@ export default [
 		title: 'Tech Talent Conference',
 		sponsor: 'Technology Denmark',
 		src: '/images/TechnologyDenmark.jpg',
+		href: 'http://techtalentconference.dk/',
 	},{
 		title: 'Biografbilletter',
 		sponsor: 'Technology Denmark',
