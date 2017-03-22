@@ -8,6 +8,8 @@
     "react-tap-event-plugin": "^2.0.1"
   },
   "dependencies": {
+    "firebase": "^3.7.3",
+    "firebaseui": "^1.0.0",
     "is-mobile": "^0.2.2",
     "path": "^0.12.7",
     "react": "^15.4.2",

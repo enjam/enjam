@@ -8,6 +8,7 @@ import Contact from './Contact/Contact';
 import TrumpTris from './Jams/GameJam/TrumpTris/TrumpTris';
 import GameJamPage from './Jams/GameJam/GameJamPage';
 import NotFound from './NotFound/NotFound';
+import Q from './Q/Q';
 
 const Routes = (props) => (
   <Router {...props}>
@@ -16,6 +17,7 @@ const Routes = (props) => (
 		<Route path="/jams" component={Jams} />
 		<Route path="/contact" component={Contact} />
 		<Route path="/gamejam" component={GameJamPage} />
+		<Route path="/q" component={Q} />
 		<Route path="/trump" component={TrumpTris} />
     <Route path="*" component={NotFound} />
   </Router>
