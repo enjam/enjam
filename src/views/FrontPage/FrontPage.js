@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import EnPage from '../../components/EnPage';
-import GameJam from '../Jams/GameJam/GameJam';
+import CurrentJam from '../Jams/IoTjam/IoTjam';
 
 class FrontPage extends Component{
 	render(){
@@ -14,7 +14,7 @@ class FrontPage extends Component{
 						der er op til fri fortolkning.
 					</p>
 				</div>
-				<GameJam/>
+				<CurrentJam/>
 			</EnPage>
 		);
 	}

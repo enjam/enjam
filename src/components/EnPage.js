@@ -9,10 +9,10 @@ const style = {
 class EnPage extends Component{
 	render(){
 		return(
-			<Paper 
-				{...this.props}
-				zDepth={0}  
-				style={{...style, ...this.props.style}}>
+			<Paper
+				zDepth={0}
+				style={{...style, ...this.props.style}}
+				{...this.props}>
 				{this.props.children}
 			</Paper>
 		);

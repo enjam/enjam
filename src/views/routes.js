@@ -7,6 +7,7 @@ import Jams from './Jams/Jams';
 import Contact from './Contact/Contact';
 import TrumpTris from './Jams/GameJam/TrumpTris/TrumpTris';
 import GameJamPage from './Jams/GameJam/GameJamPage';
+import IoTjamPage from './Jams/IoTjam/IoTjamPage';
 import NotFound from './NotFound/NotFound';
 import Q from './Q/Q';
 import Pingpong from './Jams/GameJam/Pingpong';
@@ -18,6 +19,7 @@ const Routes = (props) => (
 		<Route path="/jams" component={Jams} />
 		<Route path="/contact" component={Contact} />
 		<Route path="/gamejam" component={GameJamPage} />
+		<Route path="/iotjam" component={IoTjamPage} />
 		<Route path="/pingponggame" component={Pingpong} />
 		<Route path="/q" component={Q} />
 		<Route path="/trump" component={TrumpTris} />

@@ -4,7 +4,7 @@ import GameJam from './GameJam';
 import EnPage from '../../../components/EnPage';
 
 const GameJamPage = (props) => (
-	<EnPage>
+	<EnPage {...props}>
 		<GameJam/>
 	</EnPage>
 );

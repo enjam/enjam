@@ -102,7 +102,7 @@ const GameJam = (props) => {
 							</Link>
 							<a href={eventLink} target="_blank">
 								<RaisedButton 
-									label="Tilmeld 30 kr" 
+									label="Facebook" 
 									primary={true} 
 									style={{
 										margin:'16px', 
