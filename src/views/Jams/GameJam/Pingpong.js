@@ -64,7 +64,6 @@ class Pingpong extends Component{
 	start = null;
 	step = timestamp => {
 		if (!this.start) this.start = timestamp;
-		var progress = timestamp - this.start;
 		window.requestAnimationFrame(this.step);
 		const s = this.state;
 		let bv = s.bv;

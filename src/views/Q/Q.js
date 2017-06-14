@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import EnPage from '../../components/EnPage';
 
 import RaisedButton from 'material-ui/RaisedButton';
-import Avatar from 'material-ui/Avatar';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import Up from 'material-ui/svg-icons/hardware/keyboard-arrow-up';
 import Down from 'material-ui/svg-icons/hardware/keyboard-arrow-down';
