@@ -1,5 +1,10 @@
 export default [
 	{
+		name: 'TEK',
+		logo: '/images/SDU.jpg',
+		href: 'http://www.sdu.dk/TEK',
+	},
+	{
 		name: 'MiniElektro',
 		href: 'http://minielektro.dk/',
 		logo: '/images/MiniElektro.jpg',
