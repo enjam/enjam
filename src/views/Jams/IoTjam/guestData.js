@@ -5,12 +5,8 @@ export default [
 		src: '/images/Delta.jpg',
 		href: 'https://dk.madebydelta.com/',
 	},
-	/*
 	{
-		name: 'someone',
-		from: 'Sensohive',
-		src: '/images/Sensohive.jpg',
-		href: 'https://sensohive.com/',
+		name: 'Flere på vej..',
+		src: '/images/questionmark.jpg',
 	},
-	*/
 ];

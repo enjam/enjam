@@ -44,4 +44,9 @@ export default {
     logo: '/images/Danfoss.jpg',
     href: 'http://www.danfoss.dk/',
   },
+  'FFE' : {
+    name: 'Fonden For Entreprenørskab',
+    logo: '/images/ffe.jpg',
+    href: 'http://www.ffe-ye.dk/',
+  }
 }
