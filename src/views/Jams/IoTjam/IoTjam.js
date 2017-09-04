@@ -111,19 +111,24 @@ const IoTjam = (props) => {
 				<Divider />
 				<br/>
 				<div style={{textAlign: 'center'}}>
-					Er du interesseret i at udvikle fremtidens 'smarte' byer, en 'smart' industri, et 'smart' hjem eller noget andet 'smart'?
+					Skal du være med til at udvikle fremtidens 'smarte' byer, en 'smart' industri, et 'smart' hjem eller noget andet 'smart'?
 				</div>
 				<p>
 					Kom og red verden - eller lav noget skørt - til Internet of Things jam på TEK,
-					Syddansk Universitet, og team op med nogle, der komplementerer dine interesser
+					Syddansk Universitet.
+					Der er brug for nogle, der er interesserede i produktudvikling,
+					elektronik, design, programmering, innovation, eller andet, der kan
+					indgå i udviklingen af en IoT prototype.
+				</p>
+				<p>
+					Mød op til arrangementet og find nogle, der komplementerer dine interesser
 					og færdigheder. I har weekenden til at lave et IoT-koncept og måske en prototype.
 					Det kunne være, du ville automatisere din urtehave,
 					sætte en gps på din ekskærestes cykel
 					eller lave flotte grafer over temperaturen i dit køleskab.
 				</p>
 				<p>
-					Du behøver ikke at kende til IoT i forvejen,
-					da der vil være et inspirerende foredrag om IoT og eksperter under jammet.
+					Der vil være et oplæg om IoT, så du behøver ikke at kende til IoT i forvejen.
 					Til prototypeudvikling er der adgang til 3D-printere,
 					en laserskærer, IoT development boards, sensorer, aktuatorer og en hjælpende hånd.
 				</p>
@@ -132,9 +137,6 @@ const IoTjam = (props) => {
 					Fredag dannes der grupper og der idégenereres,
 					lørdag udvikles der i fuld fart, og søndag præsenterer og vurderer i jeres produkter.
 					Søndag eftermiddag sluttes der af med præmieoverrækkelser.
-				</p>
-				<p>
-					Mere information følger.
 				</p>
 				<MediaQuery minDeviceWidth={800}>
 					{match => (
