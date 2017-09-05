@@ -14,7 +14,7 @@ import sponsorData from './sponsorData';
 
 import IoTjamCover from './circle-iot.png';
 
-const eventLink = "https://www.facebook.com/events/1748049711875959/";
+const eventLink = "https://enjam.nemtilmeld.dk/2/";
 
 const IoTjam = (props) => {
 
