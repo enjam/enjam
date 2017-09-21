@@ -1,6 +1,7 @@
 export default [
 	{
 		name: 'Mikkel Baun Kjærgaard',
+		from: 'PhD, Associate Professor',
 		src: '/images/mikkelbaun.jpg',
 		href: 'http://mbkj.sdu.dk/',
 	},
