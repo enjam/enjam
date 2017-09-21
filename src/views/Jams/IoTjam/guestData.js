@@ -1,5 +1,10 @@
 export default [
 	{
+		name: 'Mikkel Baun Kjærgaard',
+		src: '/images/mikkelbaun.jpg',
+		href: 'http://mbkj.sdu.dk/',
+	},
+	{
 		name: 'Martin Kærgaard',
 		from: 'Delta',
 		src: '/images/Delta.jpg',
