@@ -1,6 +1,6 @@
 export default [
 	{
-		name: 'Mikkel Baun Kjærgaard',
+		name: 'Mikkel Kjærgaard',
 		from: 'PhD, Associate Professor',
 		src: '/images/mikkelbaun.jpg',
 		href: 'http://mbkj.sdu.dk/',
@@ -12,7 +12,9 @@ export default [
 		href: 'https://dk.madebydelta.com/',
 	},
 	{
-		name: 'Flere på vej..',
-		src: '/images/questionmark.jpg',
+		name: 'Wilhelm Petersen',
+		from: 'Ingeniører uden grænser',
+		src: '/images/iug.jpg',
+		href: 'https://iug.dk/',
 	},
 ];
