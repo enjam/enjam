@@ -1,5 +1,14 @@
 export default [
 	{
+		title: 'Escape room',
+		src: '/images/amaze.jpg',
+		href: 'http://amazeroom.dk/',
+	},
+	{
+		title: 'Biografbilletter',
+		src: '/images/CinemaTickets.jpg',
+	},
+	{
 		title: 'Værktøj',
 		sponsor: 'RS Components',
 		src: '/images/RSComponents.jpg',
