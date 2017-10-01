@@ -1,6 +1,13 @@
 {
   "hosting": {
     "public": "build",
+    "redirects" : [
+      {
+        "source": "/vote",
+        "destination": "https://goo.gl/forms/OXfN5z5ypC5jPdPl2",
+        "type": 302
+      }
+    ],
     "rewrites": [
       {
         "source": "**",
