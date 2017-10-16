@@ -14,7 +14,7 @@ import sponsorData from './sponsorData';
 
 import IoTjamCover from './circle-iot.png';
 
-const eventLink = "https://enjam.nemtilmeld.dk/2/";
+const eventLink = "https://www.facebook.com/events/1748049711875959/";
 
 const IoTjam = (props) => {
 
@@ -99,7 +99,7 @@ const IoTjam = (props) => {
 						<img src={IoTjamCover} role="presentation" style={{height:'180px', margin: '20px'}}/>
 							<a href={eventLink} target="_blank">
 								<RaisedButton primary={true}
-									label="Tilmeld 50 kr"
+									label="Facebook"
 									style={{
 										margin:'16px',
 										marginTop: 0,
