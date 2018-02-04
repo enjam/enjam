@@ -63,11 +63,12 @@ const GameJam = (props) => {
 		/>
 	);
 
+
 	const desktopFlex = {
-		display:'flex',
-		flexWrap:'wrap',
-		justifyContent: 'space-between',
-		alignItems: 'flex-start',
+		display:'grid',
+		gridTemplateColumns: 'repeat(3, 1fr)',
+		gridGap: '1em',
+		alignItems: 'start',
 	};
 
 	const mobileFlex = {
@@ -77,7 +78,8 @@ const GameJam = (props) => {
 	};
 
 	const flexTopDesktop = {
-		...desktopFlex,
+		display: 'flex',
+		justifyContent: 'space-between',
 		alignItems: 'center',
 	};
 
