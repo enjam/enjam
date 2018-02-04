@@ -72,7 +72,7 @@ const GameJam = (props) => {
 	};
 
 	const mobileFlex = {
-		...desktopFlex,
+		display: 'flex',
 		flexDirection: 'column',
 		alignItems: 'stretch',
 	};
